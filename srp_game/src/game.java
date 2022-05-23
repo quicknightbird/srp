@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-enum Move{
+enum Move {
     ROCK, PAPER, SCISSORS
 
 }
@@ -13,7 +13,7 @@ public class game {
         int countPlayer = 0;
         int countComputer = 0;
         int tie = 0;
-        while(true) {
+        while (true) {
 
             Scanner scanner = new Scanner(System.in);
             String inputMove = scanner.nextLine();
@@ -78,7 +78,6 @@ public class game {
             System.out.println("Player score: " + countPlayer);
             System.out.println("Tie: " + tie);
         }
-
 
 
     }
