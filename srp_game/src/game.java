@@ -8,11 +8,12 @@ enum Move {
 
 public class game {
     public static void main(String[] args) {
-        System.out.println("HELLO IN GAME ");
+        System.out.println("HELLO IN GAME  ");
         System.out.println("PICK PAPER/ROCK/SCISSORS (exit for exit)");
         int countPlayer = 0;
         int countComputer = 0;
         int tie = 0;
+
         while (true) {
 
             Scanner scanner = new Scanner(System.in);
