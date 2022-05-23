@@ -12,7 +12,7 @@ public class client {
 
                 ){
                     System.out.println("Connected");
-                    String request = "BLO";
+                    String request = "hi";
                     writer.write(request);
                     writer.newLine();
                     writer.flush();
